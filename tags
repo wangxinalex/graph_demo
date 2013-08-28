@@ -1,0 +1,44 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BFS	graph.c	/^void BFS(graph *p, int v){$/;"	f
+BFSTraversal	graph.c	/^void BFSTraversal(graph *p){$/;"	f
+CC	Makefile	/^CC = gcc$/;"	m
+DFS	graph.c	/^void DFS(graph *p, int v){$/;"	f
+DFSTraversal	graph.c	/^void DFSTraversal(graph *p){$/;"	f
+G	graph.c	/^graph *G;$/;"	v
+GRAPH_H	graph.h	2;"	d
+MAX	queue.h	3;"	d
+MAX_FILE_NAME	graph.h	6;"	d
+MAX_LINE	graph.h	7;"	d
+MAX_NODES_NUM	graph.h	4;"	d
+QUEUE_H	queue.h	2;"	d
+create_graph	graph.c	/^graph* create_graph(int adj_matrix[MAX_NODES_NUM][MAX_NODES_NUM],int vertex_num){$/;"	f
+decode	transfer.c	/^int decode(int matrix[][MAX_NODES_NUM], int vertex_num[], int num){$/;"	f
+dequeue	queue.c	/^void * dequeue(){$/;"	f
+edge_num	graph.h	/^	int edge_num;$/;"	m	struct:s_graph
+enqueue	queue.c	/^int enqueue(void *item){$/;"	f
+front	queue.c	/^int front, rear;$/;"	v
+graph	graph.h	/^}graph;$/;"	t	typeref:struct:s_graph
+initializeQueue	queue.c	/^int initializeQueue(){$/;"	f
+isEmpty	queue.c	/^int isEmpty(){$/;"	f
+isFull	queue.c	/^int isFull(){$/;"	f
+main	graph.c	/^int main(int argc, char *argv[]){$/;"	f
+matrix	graph.h	/^	int matrix[MAX_NODES_NUM][MAX_NODES_NUM];$/;"	m	struct:s_graph
+name	graph.h	/^	char name[MAX_FILE_NAME];$/;"	m	struct:s_node
+node	graph.h	/^}node;$/;"	t	typeref:struct:s_node
+node_list	graph.h	/^	node node_list[MAX_NODES_NUM];$/;"	m	struct:s_graph
+node_num	graph.h	/^	int node_num;$/;"	m	struct:s_graph
+parse	transfer.c	/^int parse(char* line, int vertex[]){$/;"	f
+print_graph	graph.c	/^void print_graph(graph *p){$/;"	f
+print_matrix	transfer.c	/^void print_matrix(int adj_matrix[][MAX_NODES_NUM],int num){$/;"	f
+queue	queue.c	/^void * queue[MAX];$/;"	v
+rear	queue.c	/^int front, rear;$/;"	v
+s_graph	graph.h	/^typedef struct s_graph{$/;"	s
+s_node	graph.h	/^typedef struct s_node{$/;"	s
+size	queue.c	/^int size(){$/;"	f
+value	graph.h	/^	int value;$/;"	m	struct:s_node
+visited	graph.c	/^int visited[MAX_NODES_NUM];$/;"	v
