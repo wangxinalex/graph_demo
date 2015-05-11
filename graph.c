@@ -81,7 +81,7 @@ graph* create_graph(int adj_matrix[MAX_NODES_NUM][MAX_NODES_NUM],int vertex_num)
 
 void print_graph(graph *p){
 	printf("Grpah: vertex number = %d\t edge number = %d\n",p->node_num,p->edge_num);
-	print_matrix(p->matrix,p->node_num);
+	print_matrix(p->matrix, p->node_num);
 	
 }
 
